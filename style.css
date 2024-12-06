@@ -1,0 +1,234 @@
+@charset "UTF-8";
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+:root{
+    --cor01: #4F606B;
+    --cor02: #8C9FAC;
+    --cor03: #564A38;
+    --cor04: #332510;
+    --cor04l: #332510;
+    --cor05: #192933;
+    --cor05d: #090f12;
+    --cor06: #AB9D8A;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.titulobg{
+    font-size: 3em;
+    margin: 10px 0px 20px 20px;
+    background-image: linear-gradient(to right, var(--cor06) , white);
+    padding-left: 10px;
+    color: var(--cor04);
+    border-radius: 10px 0px 0px 10px;
+    padding: 5px;
+}
+
+header{
+    background-color: var(--cor01);
+    text-align: center;
+    padding: 10px;
+    margin-bottom: 2px;
+    box-shadow: 0px 2px 8px 1px rgba(0, 0, 0, 0.367);
+}
+.htitulo{
+    display: inline-block;
+    color: white;
+}
+.himg{
+    display: inline-block;
+    margin: 10px;
+}
+.himg img{
+    border-radius: 50%;
+    width: 125px;
+    border: 5px solid var(--cor02);
+}
+.hp{
+    font-size: small;
+}
+main{
+    max-width: 1100px;
+    min-width: 300px;
+    margin: auto;
+    border-radius: 0px 0px 10px 10px;
+    padding: 40px;
+}
+
+main h1{
+    color: var(--cor03);
+    margin: 20px 10px;
+    font-size: 4em;
+}
+
+main p{
+    font-size: 1.3em;
+}
+
+.formacao{
+    text-align: center;
+    background-color: var(--cor03);
+    max-width: 700px;
+    border-radius: 0px 30px 30px 0px;
+    padding: 10px;
+    margin: 40px 0px 40px 0px;
+    border: 2px solid var(--cor04l);
+}
+.formacao h2{
+    color: white;
+}
+.formacao div{
+    display: inline-block;
+    margin: 10px 20px;
+}
+.formacao img{
+    border-radius: 50%;
+    opacity: 1;
+    max-width: 90px;
+}
+.formacao img:hover{
+    opacity: .8;
+}
+
+.competencias{
+    padding: 40px 0px 20px 20px;
+}
+.competencias li{
+    margin: 20px 10%;
+    font-size: 1.4em;
+    font-weight: bolder;
+    color: var(--cor05);
+}
+
+.experiencia{
+    background-color: var(--cor05);
+    text-align: center;
+    padding-top: 1px;
+}
+.experiencia h2{
+    font-size: 3em;
+    color: white;
+    margin: 10px;
+}
+
+.oikos {
+    position: relative; 
+    height: 300px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px 0px;
+}
+.oikos::before {    
+      content: "";
+      background: url('imagens/oikos-bg.webp') top center fixed no-repeat;
+      background-size: cover;
+      position: absolute;
+      top: 0px;
+      right: 0px;
+      bottom: 0px;
+      left: 0px;
+      opacity: 0.3;
+}
+.oikos img {
+  position: relative;
+  color: #ffffff;
+  max-width: 400px;  
+}
+
+.robert {
+    position: relative; 
+    height: 300px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px 0px;
+}
+.robert::before {    
+      content: "";
+      background: url('imagens/robert-bg.webp') top center fixed no-repeat;
+      background-size: cover;
+      position: absolute;
+      top: 0px;
+      right: 0px;
+      bottom: 0px;
+      left: 0px;
+      opacity: 0.3;
+}
+.robert img {
+  position: relative;
+  color: #ffffff;
+  max-width: 400px;  
+}
+
+.deloitte {
+    position: relative; 
+    height: 300px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px 0px;
+}
+.deloitte::before {    
+      content: "";
+      background: url('imagens/deloitte-bg.webp') right fixed no-repeat;
+      background-size: cover;
+      position: absolute;
+      top: 0px;
+      right: 0px;
+      bottom: 0px;
+      left: 0px;
+      opacity: 0.3;
+}
+.deloitte img {
+  position: relative;
+  color: #ffffff;
+  max-width: 400px;  
+}
+
+footer{
+    padding: 10px;
+    display: flex;
+    background-color: var(--cor05d);
+    height: auto;
+    max-width: 100dvw;
+    justify-content: space-around;
+    color: white;
+    flex-wrap: wrap;
+}
+.social{
+    width: 200px;
+    text-align: center;
+    margin: 10px;
+}
+.social img{
+    width: 50px;
+    border-radius: 25%;
+    margin: 5px;
+}
+.social img:hover{
+    opacity: .5;
+}
+.social ul{
+    list-style: none;
+}
+.contato{
+    max-width: auto;
+    min-height: 100px;
+    text-align: center;
+}
+footer h3{
+    margin: 20px;
+    color: white;
+    font-size: 3.6vw;
+}
